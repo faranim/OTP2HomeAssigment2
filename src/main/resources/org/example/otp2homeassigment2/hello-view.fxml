@@ -9,9 +9,9 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-    <Button fx:id="button1" onAction="#onHelloButtonClick" prefHeight="26.0" prefWidth="144.0" text="Button 1" />
-   <Button fx:id="button2" onAction="#onHelloButtonClick" prefHeight="26.0" prefWidth="141.0" text="Button 2" />
-   <Button fx:id="button3" onAction="#onHelloButtonClick" prefHeight="26.0" prefWidth="144.0" text="Button 3" />
+    <Button mnemonicParsing="false" fx:id="button1" onAction="#setEN" prefHeight="26.0" prefWidth="144.0" text="%button1.text" />
+   <Button mnemonicParsing="false" fx:id="button2" onAction="#setIR" prefHeight="26.0" prefWidth="141.0" text="%button2.text" />
+   <Button mnemonicParsing="false" fx:id="button3" onAction="#setJP" prefHeight="26.0" prefWidth="144.0" text="%button3.text" />
 
     <Label fx:id="welcomeText" />
 </VBox>
